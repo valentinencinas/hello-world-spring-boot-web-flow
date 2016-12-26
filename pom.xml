@@ -6,7 +6,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>es.vencinas.examples.spring.boot.web.flow</groupId>
+	<groupId>es.vencinas.examples.spring.boot.web.flow.web.flow</groupId>
 	<artifactId>helloworld</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -57,6 +57,22 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
+        <!-- Spring Web -->
+	    <dependency>
+	        <groupId>org.springframework</groupId>
+	        <artifactId>spring-core</artifactId>
+	    </dependency>
+	    
+	    <dependency>
+	        <groupId>org.springframework</groupId>
+	        <artifactId>spring-web</artifactId>
+	    </dependency>
+	    
+	    <dependency>
+	        <groupId>org.springframework</groupId>
+	        <artifactId>spring-webmvc</artifactId>
+	    </dependency>
 
 		<!-- Lombok -->
 		<dependency>

@@ -1,4 +1,4 @@
-package es.vencinas.examples.spring.boot;
+package es.vencinas.examples.spring.boot.web.flow;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
